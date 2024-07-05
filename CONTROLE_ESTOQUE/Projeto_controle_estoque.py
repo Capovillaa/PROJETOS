@@ -274,6 +274,18 @@ con = sqlite3.connect("Meu_BD.db")
 
 cursor = con.cursor()
 
+cursor.execute("""CREATE TABLE "estoque" (
+	"id_prod"	INTEGER,
+	"nome_prod"	TEXT,
+	"desc_prod"	TEXT,
+	"custo_prod"	NUMERIC,
+	"custo_fixo"	INTEGER,
+	"comissao_vendas"	INTEGER,
+	"impostos"	INTEGER,
+	"margem_lucro"	INTEGER,
+	PRIMARY KEY("id_prod")
+)""")
+
 alfabeto = "abcdefghijklmnopqrstuvwxyz"
 chave = "test"
 num = 1
