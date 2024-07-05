@@ -1,0 +1,6 @@
+Projeto de controle de estoque, utilizando Python e SQLite.
+Neste projeto é possível realizar:
+-Insert de produtos,
+-Alteração de dados, 
+-Exclusão de produtos,
+-Listagem do produto.
