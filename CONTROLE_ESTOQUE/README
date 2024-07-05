@@ -1,4 +1,7 @@
 Projeto de controle de estoque, utilizando Python e SQLite.
+Utilizando as bibliotecas:
+-sqlite3 
+-numpy (realiza a criptografia da descrição do produto enviada para o Banco de dados)
 Neste projeto é possível realizar:
 -Insert de produtos,
 -Alteração de dados, 
